@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+}
+
+.principal  {
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.principal .box1 {
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+}
+
+.principal .box2 {
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal .box3 {
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+}
